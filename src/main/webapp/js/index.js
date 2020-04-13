@@ -11,7 +11,6 @@ function implant(json) {
 	
 	let searchId = document.getElementById('searchId').value;
 	
-	
 	document.getElementById('info').innerHTML = " " + json[searchId].id + " " +
 	json[searchId].category + " " +
 	json[searchId].question + " " +
